@@ -201,10 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aece7d6ba34f3743991c16dbcde7932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArPrefabs:
-  - {fileID: 2984062499778699215, guid: 806b76ba1aadf3c4bae74af1e07c4fe4, type: 3}
-  - {fileID: 3597988597011818549, guid: 494d4da708f77a44b9e054e2945dca96, type: 3}
-  - {fileID: 1853116833041402031, guid: 88912271fc50f74488696a0a967b94b5, type: 3}
+  codePrefab: {fileID: 2304712704428445504, guid: c94e311d0e260454580781254052685c, type: 3}
 --- !u!1 &130864192
 GameObject:
   m_ObjectHideFlags: 0

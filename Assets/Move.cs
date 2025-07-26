@@ -1,15 +1,12 @@
 using UnityEngine;
 
-public class MoveOnXAxis : MonoBehaviour
+public class MoveOnAxis : MonoBehaviour
 {
-    public float speed; // Movement speed
+    public float speed;
 
     void Update()
     {
-        // Create movement vector on X axis only
-        Vector3 movement = new Vector3(0f, 0f, 1f) * speed * Time.deltaTime;
-
-        // Apply movement
+        Vector3 movement = new Vector3(1f, 0f, 0f) * speed * Time.deltaTime;
         transform.Translate(movement);
     }
 }
